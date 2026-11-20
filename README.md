@@ -13,8 +13,6 @@ A PySpark pipeline that processes **84.4 million NYC taxi trips (1.46 GB of gzip
 
 ## Requirements
 
-Section numbers refer to the headings in the notebook and HTML export.
-
 | Rubric item | Requirement | Where | Evidence |
 |---|---|---|---|
 | **Dataset Selection & Loading** (10) | 1 GB+ dataset, loaded with PySpark | Sections 1, 2 | 12 files, **1.46 GB compressed, 84,399,019 rows**, plus 2 related lookup datasets. Loaded with `spark.read.csv` and an explicit `StructType` schema. |
